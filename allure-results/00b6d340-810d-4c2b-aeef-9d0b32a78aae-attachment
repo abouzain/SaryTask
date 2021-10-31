@@ -1,0 +1,3 @@
+[2021-11-01T00:25:52+0200] [WARNING] https://maps.googleapis.com/maps-api-v3/api/js/46/11/util.js 246:27 "Google Maps JavaScript API warning: RetiredVersion https://developers.google.com/maps/documentation/javascript/error-messages#retired-version"
+[2021-11-01T00:26:15+0200] [SEVERE] https://lh5.googleusercontent.com/-FBu0GhEU1MQ/AAAAAAAAAAI/AAAAAAAAAAA/O0QlqEnJHU0/photo.jpg?sz=64 - Failed to load resource: the server responded with a status of 403 ()
+[2021-11-01T00:26:18+0200] [SEVERE] https://tr.snapchat.com/collector/is_enabled?pids=54f04dd9-4d34-47ee-87a6-989713215c80 - Failed to load resource: net::ERR_CONNECTION_CLOSED

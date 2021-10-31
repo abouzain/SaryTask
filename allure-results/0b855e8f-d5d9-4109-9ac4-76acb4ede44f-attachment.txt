@@ -1,0 +1,16 @@
+
+################################################################################################################################################
+Starting Execution:	[4 out of 4] test cases in the current suite
+Test Method:		[Tests.TC01_CheckSearchHotelOnBooking.CheckSecondHotelDetailsPage]
+################################################################################################################################################
+[ReportManager] File Action [CreateFile] successfully performed. With the following test data [Target Folder: "allure-results//screenshots/20211101-002518", Target File: "\1635719170610_CheckSecondHotelDetailsPage.gif"]. @01-11-2021 00:26:10.0816 AM
+[ReportManager] Element Action [GetText] successfully performed. With the following test data [Hotel Sultan Bey Resort]. @01-11-2021 00:26:11.0309 AM
+[ReportManager] Element Action [Click] successfully performed. With the following test data [Hotel Sultan Bey Resort]. @01-11-2021 00:26:13.0183 AM
+[ReportManager] Element Action [GetWindowHandles] successfully performed. With the following test data [[CDwindow-05CAC61B96B4B5CA2A513F14DDD72C1F, CDwindow-FF20F6DC820E6A16FED0353D4E7D8A7C]]. @01-11-2021 00:26:13.0193 AM
+[ReportManager] Element Action [SwitchToWindow] successfully performed. With the following test data [CDwindow-FF20F6DC820E6A16FED0353D4E7D8A7C]. @01-11-2021 00:26:13.0239 AM
+[ReportManager] Element Action [GetText] successfully performed. With the following test data [Resort Hotel Sultan Bey Resort]. @01-11-2021 00:26:19.0849 AM
+[ReportManager] Loaded Shared OpenCV @01-11-2021 00:26:20.0635 AM
+[ReportManager] Assertion Passed: Hotel Sultan Bey Resort @01-11-2021 00:26:21.0471 AM
+[ReportManager] Successfully created attachment [Screenshot - 1635719180635_CheckSecondHotelDetailsPage_ValidateElementAttribute_passed] @01-11-2021 00:26:21.0489 AM
+[ReportManager] Assertion [ValidateElementAttribute] PASSED. Expected [Value Should be 'Hotel Sultan Bey Resort' for the 'text' attribute, element locator 'By.xpath: //h2[@id='hp_hotel_name']'] and Actual [Resort Hotel Sultan Bey Resort]. Comparison Type [CONTAINS]. Validation Type [POSITIVE]. @01-11-2021 00:26:21.0489 AM
+[ReportManager] Successfully created attachment [Animated Gif - CheckSecondHotelDetailsPage] @01-11-2021 00:26:21.0497 AM

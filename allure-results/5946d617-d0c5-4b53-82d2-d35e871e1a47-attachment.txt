@@ -1,0 +1,10 @@
+
+################################################################################################################################################
+Starting Execution:	[2 out of 4] test cases in the current suite
+Test Method:		[Tests.TC01_CheckSearchHotelOnBooking.CheckSecondHotelRating]
+################################################################################################################################################
+[ReportManager] File Action [CreateFile] successfully performed. With the following test data [Target Folder: "allure-results//screenshots/20211101-002518", Target File: "\1635719159941_CheckSecondHotelRating.gif"]. @01-11-2021 00:26:00.0146 AM
+[ReportManager] Element Action [Click] successfully performed. With the following test data [Good: 7+ 29]. @01-11-2021 00:26:01.0722 AM
+[ReportManager] Element Action [GetText] successfully performed. With the following test data [Good]. @01-11-2021 00:26:03.0877 AM
+[ReportManager] Assertion [ValidateTrue] PASSED. Expected [TRUE] and Actual [TRUE]. Validation Type [POSITIVE]. @01-11-2021 00:26:03.0877 AM
+[ReportManager] Successfully created attachment [Animated Gif - CheckSecondHotelRating] @01-11-2021 00:26:03.0892 AM

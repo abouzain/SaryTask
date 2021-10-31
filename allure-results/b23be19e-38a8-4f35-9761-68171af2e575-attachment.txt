@@ -1,0 +1,89 @@
+################################################################################################################################################
+Detected SHAFT Engine Version: [SHAFT Engine v5.3.20210519]
+################################################################################################################################################
+[ReportManager] File Action [GetAbsolutePath] successfully performed. With the following test data [Relative Folder Path: "target/downloadedFiles/"]. @01-11-2021 00:25:19.0017 AM
+[ReportManager] Attempting to run locally on: [Windows-64], [GoogleChrome]. @01-11-2021 00:25:19.0079 AM
+[ReportManager] Identifying OS/Driver combination and selecting the correct driver version automatically. Please note that if a new driver executable will be downloaded it may take some time... @01-11-2021 00:25:19.0079 AM
+[ReportManager] Successfully Opened Google Chrome. @01-11-2021 00:25:22.0711 AM
+[ReportManager] Successfully loaded the following test data file [src/test/resources/TestData/Destinations.json]. @01-11-2021 00:25:22.0719 AM
+[ReportManager] Successfully created attachment [Test Data - JSON] @01-11-2021 00:25:22.0736 AM
+
+################################################################################################################################################
+Starting Execution:	[1 out of 4] test cases in the current suite
+Test Method:		[Tests.TC01_CheckSearchHotelOnBooking.CheckSearchResult]
+################################################################################################################################################
+[ReportManager] Target URL: [https://www.booking.com/] @01-11-2021 00:25:22.0842 AM
+[ReportManager] Initial URL: [data:,] @01-11-2021 00:25:22.0968 AM
+[ReportManager] File Action [CreateFile] successfully performed. With the following test data [Target Folder: "allure-results//screenshots/20211101-002518", Target File: "\1635719128727_CheckSearchResult.gif"]. @01-11-2021 00:25:29.0206 AM
+[ReportManager] Browser Action [NavigateToURL] successfully performed. With the following test data [https://www.booking.com/]. @01-11-2021 00:25:29.0914 AM
+[ReportManager] Element Action [Type] successfully performed. With the following test data [EL Gouna]. @01-11-2021 00:25:33.0947 AM
+[ReportManager] Element Action [Click] successfully performed. With the following test data [El Gouna Hurghada, Red Sea Governorate, Egypt]. @01-11-2021 00:25:36.0386 AM
+[ReportManager] Element Action [Click] successfully performed. With the following test data [Mo Tu We Th Fr Sa Su 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30]. @01-11-2021 00:25:38.0244 AM
+[ReportManager] Element Action [Click] successfully performed. With the following test data [1]. @01-11-2021 00:25:40.0015 AM
+[ReportManager] Element Action [Click] successfully performed. With the following test data [2]. @01-11-2021 00:25:41.0604 AM
+[ReportManager] Element Action [Click] successfully performed. With the following test data [Search]. @01-11-2021 00:25:50.0692 AM
+[ReportManager] Element Action [Click] successfully performed. @01-11-2021 00:25:54.0878 AM
+[ReportManager] Element Action [GetText] successfully performed. With the following test data [Our Top Picks]. @01-11-2021 00:25:55.0671 AM
+[ReportManager] Loaded Shared OpenCV @01-11-2021 00:25:58.0127 AM
+[ReportManager] Assertion [ValidateElementAttribute] PASSED. Expected [Value Should be 'Our Top Picks' for the 'text' attribute, element locator 'By.xpath: //li[@data-id='popularity']//a'] and Actual [Our Top Picks]. Comparison Type [CONTAINS]. Validation Type [POSITIVE]. @01-11-2021 00:25:59.0014 AM
+[ReportManager] Successfully created attachment [Screenshot - 1635719156027_CheckSearchResult_ValidateElementAttribute_passed] @01-11-2021 00:25:59.0062 AM
+[ReportManager] Successfully created attachment [Animated Gif - CheckSearchResult] @01-11-2021 00:25:59.0078 AM
+
+################################################################################################################################################
+Starting Execution:	[2 out of 4] test cases in the current suite
+Test Method:		[Tests.TC01_CheckSearchHotelOnBooking.CheckSecondHotelRating]
+################################################################################################################################################
+[ReportManager] File Action [CreateFile] successfully performed. With the following test data [Target Folder: "allure-results//screenshots/20211101-002518", Target File: "\1635719159941_CheckSecondHotelRating.gif"]. @01-11-2021 00:26:00.0146 AM
+[ReportManager] Element Action [Click] successfully performed. With the following test data [Good: 7+ 29]. @01-11-2021 00:26:01.0722 AM
+[ReportManager] Element Action [GetText] successfully performed. With the following test data [Good]. @01-11-2021 00:26:03.0877 AM
+[ReportManager] Assertion [ValidateTrue] PASSED. Expected [TRUE] and Actual [TRUE]. Validation Type [POSITIVE]. @01-11-2021 00:26:03.0877 AM
+[ReportManager] Successfully created attachment [Animated Gif - CheckSecondHotelRating] @01-11-2021 00:26:03.0892 AM
+
+################################################################################################################################################
+Starting Execution:	[3 out of 4] test cases in the current suite
+Test Method:		[Tests.TC01_CheckSearchHotelOnBooking.CheckSecondHotelNameAndPriceAndPic]
+################################################################################################################################################
+[ReportManager] File Action [CreateFile] successfully performed. With the following test data [Target Folder: "allure-results//screenshots/20211101-002518", Target File: "\1635719164295_CheckSecondHotelNameAndPriceAndPic.gif"]. @01-11-2021 00:26:04.0475 AM
+[ReportManager] Element Action [GetText] successfully performed. With the following test data [Hotel Sultan Bey Resort]. @01-11-2021 00:26:04.0913 AM
+[ReportManager] Loaded Shared OpenCV @01-11-2021 00:26:05.0384 AM
+[ReportManager] Verification Passed: Hotel Sultan Bey Resort @01-11-2021 00:26:06.0046 AM
+[ReportManager] Successfully created attachment [Screenshot - 1635719165383_CheckSecondHotelNameAndPriceAndPic_ValidateElementExists_passed] @01-11-2021 00:26:06.0061 AM
+[ReportManager] Verification [ValidateElementExists] PASSED. Expected [Element Should Exist, locator 'By.xpath: (//div[@data-testid='title'])[2]'] and Actual [Element Exists]. Comparison Type [EQUALS]. Validation Type [POSITIVE]. @01-11-2021 00:26:06.0061 AM
+[ReportManager] Element Action [GetText] successfully performed. With the following test data [EGP 1,574]. @01-11-2021 00:26:06.0893 AM
+[ReportManager] Loaded Shared OpenCV @01-11-2021 00:26:07.0348 AM
+[ReportManager] Verification Passed: Hotel Sultan Bey Resort @01-11-2021 00:26:08.0073 AM
+[ReportManager] Successfully created attachment [Screenshot - 1635719167348_CheckSecondHotelNameAndPriceAndPic_ValidateElementExists_passed] @01-11-2021 00:26:08.0073 AM
+[ReportManager] Verification [ValidateElementExists] PASSED. Expected [Element Should Exist, locator 'By.xpath: (//div[@data-testid='price-and-discounted-price'])[2]//span'] and Actual [Element Exists]. Comparison Type [EQUALS]. Validation Type [POSITIVE]. @01-11-2021 00:26:08.0073 AM
+[ReportManager] Attempting to getAttribute [alt] from elementLocator [By.xpath: (//img[@data-testid='image'])[2]]. @01-11-2021 00:26:08.0073 AM
+[ReportManager] Element Action [GetAttribute] successfully performed. With the following test data [Hotel Sultan Bey Resort]. @01-11-2021 00:26:09.0046 AM
+[ReportManager] Loaded Shared OpenCV @01-11-2021 00:26:09.0431 AM
+[ReportManager] Assertion Passed: Hotel Sultan Bey Resort @01-11-2021 00:26:10.0179 AM
+[ReportManager] Successfully created attachment [Screenshot - 1635719169431_CheckSecondHotelNameAndPriceAndPic_ValidateElementExists_passed] @01-11-2021 00:26:10.0179 AM
+[ReportManager] Assertion [ValidateElementExists] PASSED. Expected [Element Should Exist, locator 'By.xpath: (//img[@data-testid='image'])[2]'] and Actual [Element Exists]. Comparison Type [EQUALS]. Validation Type [POSITIVE]. @01-11-2021 00:26:10.0179 AM
+[ReportManager] Successfully created attachment [Animated Gif - CheckSecondHotelNameAndPriceAndPic] @01-11-2021 00:26:10.0194 AM
+
+################################################################################################################################################
+Starting Execution:	[4 out of 4] test cases in the current suite
+Test Method:		[Tests.TC01_CheckSearchHotelOnBooking.CheckSecondHotelDetailsPage]
+################################################################################################################################################
+[ReportManager] File Action [CreateFile] successfully performed. With the following test data [Target Folder: "allure-results//screenshots/20211101-002518", Target File: "\1635719170610_CheckSecondHotelDetailsPage.gif"]. @01-11-2021 00:26:10.0816 AM
+[ReportManager] Element Action [GetText] successfully performed. With the following test data [Hotel Sultan Bey Resort]. @01-11-2021 00:26:11.0309 AM
+[ReportManager] Element Action [Click] successfully performed. With the following test data [Hotel Sultan Bey Resort]. @01-11-2021 00:26:13.0183 AM
+[ReportManager] Element Action [GetWindowHandles] successfully performed. With the following test data [[CDwindow-05CAC61B96B4B5CA2A513F14DDD72C1F, CDwindow-FF20F6DC820E6A16FED0353D4E7D8A7C]]. @01-11-2021 00:26:13.0193 AM
+[ReportManager] Element Action [SwitchToWindow] successfully performed. With the following test data [CDwindow-FF20F6DC820E6A16FED0353D4E7D8A7C]. @01-11-2021 00:26:13.0239 AM
+[ReportManager] Element Action [GetText] successfully performed. With the following test data [Resort Hotel Sultan Bey Resort]. @01-11-2021 00:26:19.0849 AM
+[ReportManager] Loaded Shared OpenCV @01-11-2021 00:26:20.0635 AM
+[ReportManager] Assertion Passed: Hotel Sultan Bey Resort @01-11-2021 00:26:21.0471 AM
+[ReportManager] Successfully created attachment [Screenshot - 1635719180635_CheckSecondHotelDetailsPage_ValidateElementAttribute_passed] @01-11-2021 00:26:21.0489 AM
+[ReportManager] Assertion [ValidateElementAttribute] PASSED. Expected [Value Should be 'Hotel Sultan Bey Resort' for the 'text' attribute, element locator 'By.xpath: //h2[@id='hp_hotel_name']'] and Actual [Resort Hotel Sultan Bey Resort]. Comparison Type [CONTAINS]. Validation Type [POSITIVE]. @01-11-2021 00:26:21.0489 AM
+[ReportManager] Successfully created attachment [Animated Gif - CheckSecondHotelDetailsPage] @01-11-2021 00:26:21.0497 AM
+
+################################################################################################################################################
+Test Closure Activities
+################################################################################################################################################
+[ReportManager] Successfully created attachment [SHAFT Engine Logs - Execution log] @01-11-2021 00:26:25.0104 AM
+
+################################################################################################################################################
+This test run was powered by SHAFT Engine Version: [SHAFT Engine v5.3.20210519]
+SHAFT Engine is licensed under the MIT License: [https://github.com/MohabMohie/SHAFT_ENGINE/blob/master/LICENSE].
+################################################################################################################################################

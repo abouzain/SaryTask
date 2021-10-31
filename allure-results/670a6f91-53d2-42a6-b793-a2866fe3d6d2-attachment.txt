@@ -1,0 +1,23 @@
+
+################################################################################################################################################
+Starting Execution:	[3 out of 4] test cases in the current suite
+Test Method:		[Tests.TC01_CheckSearchHotelOnBooking.CheckSecondHotelNameAndPriceAndPic]
+################################################################################################################################################
+[ReportManager] File Action [CreateFile] successfully performed. With the following test data [Target Folder: "allure-results//screenshots/20211101-002518", Target File: "\1635719164295_CheckSecondHotelNameAndPriceAndPic.gif"]. @01-11-2021 00:26:04.0475 AM
+[ReportManager] Element Action [GetText] successfully performed. With the following test data [Hotel Sultan Bey Resort]. @01-11-2021 00:26:04.0913 AM
+[ReportManager] Loaded Shared OpenCV @01-11-2021 00:26:05.0384 AM
+[ReportManager] Verification Passed: Hotel Sultan Bey Resort @01-11-2021 00:26:06.0046 AM
+[ReportManager] Successfully created attachment [Screenshot - 1635719165383_CheckSecondHotelNameAndPriceAndPic_ValidateElementExists_passed] @01-11-2021 00:26:06.0061 AM
+[ReportManager] Verification [ValidateElementExists] PASSED. Expected [Element Should Exist, locator 'By.xpath: (//div[@data-testid='title'])[2]'] and Actual [Element Exists]. Comparison Type [EQUALS]. Validation Type [POSITIVE]. @01-11-2021 00:26:06.0061 AM
+[ReportManager] Element Action [GetText] successfully performed. With the following test data [EGP 1,574]. @01-11-2021 00:26:06.0893 AM
+[ReportManager] Loaded Shared OpenCV @01-11-2021 00:26:07.0348 AM
+[ReportManager] Verification Passed: Hotel Sultan Bey Resort @01-11-2021 00:26:08.0073 AM
+[ReportManager] Successfully created attachment [Screenshot - 1635719167348_CheckSecondHotelNameAndPriceAndPic_ValidateElementExists_passed] @01-11-2021 00:26:08.0073 AM
+[ReportManager] Verification [ValidateElementExists] PASSED. Expected [Element Should Exist, locator 'By.xpath: (//div[@data-testid='price-and-discounted-price'])[2]//span'] and Actual [Element Exists]. Comparison Type [EQUALS]. Validation Type [POSITIVE]. @01-11-2021 00:26:08.0073 AM
+[ReportManager] Attempting to getAttribute [alt] from elementLocator [By.xpath: (//img[@data-testid='image'])[2]]. @01-11-2021 00:26:08.0073 AM
+[ReportManager] Element Action [GetAttribute] successfully performed. With the following test data [Hotel Sultan Bey Resort]. @01-11-2021 00:26:09.0046 AM
+[ReportManager] Loaded Shared OpenCV @01-11-2021 00:26:09.0431 AM
+[ReportManager] Assertion Passed: Hotel Sultan Bey Resort @01-11-2021 00:26:10.0179 AM
+[ReportManager] Successfully created attachment [Screenshot - 1635719169431_CheckSecondHotelNameAndPriceAndPic_ValidateElementExists_passed] @01-11-2021 00:26:10.0179 AM
+[ReportManager] Assertion [ValidateElementExists] PASSED. Expected [Element Should Exist, locator 'By.xpath: (//img[@data-testid='image'])[2]'] and Actual [Element Exists]. Comparison Type [EQUALS]. Validation Type [POSITIVE]. @01-11-2021 00:26:10.0179 AM
+[ReportManager] Successfully created attachment [Animated Gif - CheckSecondHotelNameAndPriceAndPic] @01-11-2021 00:26:10.0194 AM
